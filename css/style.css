@@ -236,6 +236,32 @@ img {
     }
 }
 
+.section-title {
+    /* background-color: red; */
+    padding: 0 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    /* background-color: blue; */
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-bg-black-900);
+    text-transform: uppercase;
+}
+
+.section-title h2::before {
+    content: attr(data-heading);
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--skin-color);
+}
+
 
 /* header style  */
 
@@ -453,3 +479,122 @@ Home section------ */
     border-radius: 50%;
     border: 10px solid transparent;
 }
+
+
+/* ---------------- 
+About section  ---*/
+
+.about-section {
+    /* background-color: red; */
+    padding: 80px 0 80px;
+    min-height: 100vh;
+}
+
+.about-section .about-img {
+    /* background-color: blue; */
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.about-section .about-img .about-img-box {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.about-section .about-img .about-img-box img {
+    width: 100%;
+    border: 10px solid transparent;
+    border-radius: 5px;
+}
+
+.about-section .about-img .social-link {
+    /* background-color: red; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-section .about-img .social-link a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: var(--text-bg-black-600);
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.about-section .about-img .social-link a i {
+    line-height: 40px;
+}
+
+.about-section .about-img .social-link a::after {
+    border-radius: 50%;
+}
+
+.about-section .about-img .social-link a:hover {
+    color: var(--skin-color);
+}
+
+.about-section .about-info {
+    /* background-color: red; */
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 0 15px;
+}
+
+.about-section .about-info p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: var(--text-bg-black-600);
+}
+
+.about-section .about-info span {
+    font-weight: 600;
+}
+
+.about-section .about-info .btn-1 {
+    margin: 30px 20px 0 0;
+}
+
+.about-section .about-tabs {
+    /* background-color: red; */
+    padding: 60px 15px 50px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.about-section .about-tabs .tab-item {
+    display: inline-block;
+    margin: 0 5px 10px;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: var(--text-bg-black-600);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.about-section .about-tabs .tab-item:hover:not(.active) {
+    opacity: 0.4;
+}
+
+.about-section .about-tabs .tab-item.active {
+    color: var(--skin-color);
+}
+
+.about-section .tab-content {
+    /* background-color: red; */
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about-section .skills . skill-items {}
