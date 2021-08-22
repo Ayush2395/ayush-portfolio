@@ -20,7 +20,7 @@
                 <div class="logo">
                     <a href="/index.html">A</a>
                 </div>
-                <div class="hamburger-btn hover-in-shadow" id="outer-shadow">
+                <div class="hamburger-btn hover-in-shadow outer-shadow">
                     <span></span>
                 </div>
             </div>
@@ -32,7 +32,7 @@
     <!-- navigation menu start -->
 
     <nav class="nav-menu">
-        <div class="close-nav-menu  hover-in-shadow" id="outer-shadow">&times;</div>
+        <div class="close-nav-menu  hover-in-shadow outer-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
                 <li>
@@ -119,11 +119,11 @@
                     <p>Hello</p>
                     <h2>I'm Ayush</h2>
                     <h1>Music Video Editor</h1>
-                    <a href="#" class="btn-1 hover-in-shadow" id="outer-shadow">More about me</a>
+                    <a href="#" class="btn-1 hover-in-shadow outer-shadow">More about me</a>
                 </div>
                 <div class="home-img">
                     <div class="img-box inner-shadow">
-                        <img id="outer-shadow" src="img/Profile-pic-me.png" alt="profile-pic">
+                        <img class="outer-shadow" src="img/Profile-pic-me.png" alt="profile-pic">
                     </div>
                 </div>
             </div>
@@ -142,14 +142,14 @@
             <div class="row">
                 <div class="about-img">
                     <div class="img-box inner-shadow">
-                        <img id="outer-shadow" src="img/Profile-pic-me.png" alt="profile-pic">
+                        <img class="outer-shadow" src="img/Profile-pic-me.png" alt="profile-pic" style="border-radius: 10px;">
                     </div>
                     <!-- social links start -->
                     <div class="social-link">
-                        <a id="outer-shadow" href="https://www.facebook.com/ayush.chopra.549668" target="_blank" class="fab fa-facebook-f hover-in-shadow"></a>
-                        <a id="outer-shadow" href="https://www.instagram.com/official_mandal_saab/" class="fab fa-instagram hover-in-shadow" target="_blank"></a>
-                        <a id="outer-shadow" href="https://twitter.com/Mandal_SaaB03" target="_blank" class="fab fa-twitter hover-in-shadow"></a>
-                        <a id="outer-shadow" href="https://github.com/Ayush2395" target="_blank" class="fab fa-github hover-in-shadow"></a>
+                        <a href="https://www.facebook.com/ayush.chopra.549668" target="_blank" class="outer-shadow fab fa-facebook-f hover-in-shadow"></a>
+                        <a href="https://www.instagram.com/official_mandal_saab/" class="outer-shadow fab fa-instagram hover-in-shadow" target="_blank"></a>
+                        <a href="https://twitter.com/Mandal_SaaB03" target="_blank" class="outer-shadow fab fa-twitter hover-in-shadow"></a>
+                        <a href="https://github.com/Ayush2395" target="_blank" class="outer-shadow fab fa-github hover-in-shadow"></a>
                     </div>
                     <!-- social links End -->
                 </div>
@@ -157,46 +157,198 @@
                     <p><span>Hi! My name is Ayush, I'm a Music video editor.</span></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur modi, suscipit quo expedita soluta eius atque nisi veniam reprehenderit unde consequuntur, perferendis cumque hic, deleniti in labore eligendi. Expedita fugiat nisi
                         autem accusantium praesentium?</p>
-                    <a href="cv.pdf" id="outer-shadow" class="btn-1 hover-in-shadow">Download CV</a>
-                    <a href="#" id="outer-shadow" class="btn-1 hover-in-shadow">Hire Me</a>
+                    <a href="cv.pdf" class="btn-1 hover-in-shadow outer-shadow">Download CV</a>
+                    <a href="#" class="btn-1 hover-in-shadow outer-shadow">Hire Me</a>
                 </div>
             </div>
         </div>
         <!-- About tabs start -->
         <div class="row">
             <div class="about-tabs">
-                <span class="tab-item active" id="outer-shadow" data-target=".Skills">Skills</span>
-                <span class="tab-item" data-target=".Experience">Experience</span>
-                <span class="tab-item" data-target=".Education">Education</span>
+                <span class="tab-item active outer-shadow" data-target=".skills">Skills</span>
+                <span class="tab-item" data-target=".experience">Experience</span>
+                <span class="tab-item" data-target=".education">Education</span>
             </div>
         </div>
         <!-- About tabs End -->
 
+        <!-- Skills section start -->
         <div class="row">
-            <div class="skills tab-content">
+            <div class="skills tab-content active">
                 <div class="row">
-                    <!-- skills items start -->
+
+                    <!-- skills item start -->
                     <div class="skills-item">
                         <p>HTML</p>
-                        <div class="progress inner-shadow">
-                            <div class="progress-bar" style="width: calc(50% - 14px)"><span>50%</span></div>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                    <!-- skills item start -->
+                    <div class="skills-item">
+                        <p>css</p>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);" id="css">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                    <!-- skills item start -->
+                    <div class="skills-item">
+                        <p>Photoshop</p>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);" id="photoshop">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                    <!-- skills item start -->
+                    <div class="skills-item">
+                        <p>Adobe Premiere Pro</p>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);" id="premiere-pro">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                    <!-- skills item start -->
+                    <div class="skills-item">
+                        <p>DaVinci Resolve</p>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);" id="resolve">
+                                <span>66%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                    <!-- skills item start -->
+                    <div class="skills-item">
+                        <p>Color Grading</p>
+                        <div class="progress outer-shadow">
+                            <div class="progress-bar" style="width: calc(50%-14px);" id="color-grading">
+                                <span>48%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills item End -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Skills section End -->
+
+        <!-- Experience start -->
+        <div class="row">
+            <div class="experience tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>Nov, 2018</span>
+                                    <h4>Full Time Video Editor</h4>
+                                    <h3>A.V.A Vines</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil eaque culpa, dicta reiciendis a laudantium nemo distinctio quidem ex consectetur.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>March, 2020</span>
+                                    <h4>VFX Artist & Video Editor</h4>
+                                    <h3>A.V.A Vines</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil in enim quas odio tenetur dolor aliquid architecto natus quaerat?</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>July, 2021</span>
+                                    <h4>Music Video Editor</h4>
+                                    <h3>Unlisted Boyz</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias iure tenetur deleniti ab hic nostrum ipsa, quo nam earum illum.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
                         </div>
                     </div>
                 </div>
-                <!-- skills items End -->
-                <!-- skills items start -->
-                <div class="skills-item">
-                    <p>javascript</p>
-                    <div class="progress inner-shadow">
-                        <div class="progress-bar" style="width: calc(60% - 14px)"><span>60%</span></div>
+            </div>
+        </div>
+        <!-- Experience end -->
+
+        <!-- Education start -->
+        <div class="row">
+            <div class="education tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-user-graduate icon"></i>
+                                    <span>April, 2017</span>
+                                    <h3>Matric clear (10th grade)</h3>
+                                    <h4>Govt. Model Sen. Sec. High School</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil eaque culpa, dicta reiciendis a laudantium nemo distinctio quidem ex consectetur.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-user-graduate icon"></i>
+                                    <span>April, 2019</span>
+                                    <h4>12th clear</h4>
+                                    <h3>Govt. Model Sen. Sec. High School</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil in enim quas odio tenetur dolor aliquid architecto natus quaerat?</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-user-graduate icon"></i>
+                                    <span>July, 2019 - 2023</span>
+                                    <h4>Pursuing B.Tech CSE</h4>
+                                    <h3>Gulzar Group of Institute</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias iure tenetur deleniti ab hic nostrum ipsa, quo nam earum illum.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- skills items End -->
         </div>
-        </div>
+        <!-- Education end -->
+
     </section>
     <!-- About section End -->
+
     <!-- main js -->
     <script src="js/main.js"></script>
     <!-- style switcher js -->
